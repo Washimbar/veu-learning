@@ -14,6 +14,9 @@
   <h1>HTML Inline style Binding:-</h1>
   <Ex05BindingStyles />
   <hr />
+  <h1>ConditionalRendering:-</h1>
+  <Ex01ConRenIfElse />
+  <hr />
 </template>
 
 <script>
@@ -22,6 +25,7 @@ import Ex02BindingHTML from "./components/01Binding/Ex02BindingHTML.vue";
 import Ex03BindingAttributes from "./components/01Binding/Ex03BindingAttributes.vue";
 import Ex04BindingClasses from "./components/01Binding/Ex04BindingClasses.vue";
 import Ex05BindingStyles from "./components/01Binding/Ex05BindingStyles.vue";
+import Ex01ConRenIfElse from "./components/02ConditionalRendering/Ex01ConRenIfElse.vue"
 export default {
   name: "App",
   components: {
@@ -30,6 +34,7 @@ export default {
     Ex03BindingAttributes: Ex03BindingAttributes,
     Ex04BindingClasses: Ex04BindingClasses,
     Ex05BindingStyles: Ex05BindingStyles,
+    Ex01ConRenIfElse: Ex01ConRenIfElse,
   },
 };
 </script>
