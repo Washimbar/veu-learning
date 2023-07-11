@@ -17,6 +17,9 @@
   <h1>ConditionalRendering:-</h1>
   <Ex01ConRenIfElse />
   <hr />
+  <h1>ConditionalRendering:-</h1>
+  <Ex02ConRenVShow />
+  <hr />
 </template>
 
 <script>
@@ -26,6 +29,8 @@ import Ex03BindingAttributes from "./components/01Binding/Ex03BindingAttributes.
 import Ex04BindingClasses from "./components/01Binding/Ex04BindingClasses.vue";
 import Ex05BindingStyles from "./components/01Binding/Ex05BindingStyles.vue";
 import Ex01ConRenIfElse from "./components/02ConditionalRendering/Ex01ConRenIfElse.vue"
+import Ex02ConRenVShow from "./components/02ConditionalRendering/Ex02ConRenVShow.vue"
+
 export default {
   name: "App",
   components: {
@@ -35,6 +40,7 @@ export default {
     Ex04BindingClasses: Ex04BindingClasses,
     Ex05BindingStyles: Ex05BindingStyles,
     Ex01ConRenIfElse: Ex01ConRenIfElse,
+    Ex02ConRenVShow: Ex02ConRenVShow,
   },
 };
 </script>
