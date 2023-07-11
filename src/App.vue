@@ -1,24 +1,22 @@
 <template>
-  <div>
-    <div>{{greet}} I am {{name}} . I am {{age}} years old.</div>
-    <div v-html="ex"></div>
-  </div>
+  <h1>Text Binding:-</h1>
+  <Ex01BindingText />
+  <hr>
+  <h1>HTML Binding:-</h1>
+  <Ex02BindingHTML />
+  <hr>
 </template>
 
 <script>
-export default ({
-  name: 'app',
-  data() {
-    return{
-      greet: 'Hello',
-      name: 'Washim Bari',
-      age: 25,
-      ex: '<b>Hello</b>'
-    }
+import Ex01BindingText from  './components/Ex01BindingText.vue'
+import Ex02BindingHTML from  './components/Ex02BindingHTML.vue'
+export default{
+  name: "App",
+  components:{
+    Ex01BindingText: Ex01BindingText,
+    Ex02BindingHTML: Ex02BindingHTML
+
   },
-})
+  
+}
 </script>
-
-<style>
-
-</style>
