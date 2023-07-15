@@ -27,9 +27,10 @@
   <Ex02ArrayOfObjectList /> -->
     <!-- <Ex03NestedArray /> -->
 
-  <div>
+  <!-- <div>
     <Ex04ObjectList />
-  </div>
+  </div> -->
+  <Ex05ConditionalListRendering />
 </template>
 
 <script>
@@ -43,7 +44,8 @@
 // import Ex01SimpleArrayListVue from './components/03ListRendering/Ex01SimpleArrayList.vue';
 // import Ex02ArrayOfObjectList from './components/03ListRendering/Ex02ArrayOfObjectList.vue';
 // import Ex03NestedArray from './components/03ListRendering/Ex03NestedArray.vue';
-import Ex04ObjectList from './components/03ListRendering/Ex04ObjectList.vue';
+// import Ex04ObjectList from './components/03ListRendering/Ex04ObjectList.vue';
+import Ex05ConditionalListRendering from './components/03ListRendering/Ex05ConditionalListRendering.vue';
 
 export default {
   name: "App",
@@ -58,7 +60,8 @@ export default {
     // Ex01SimpleArrayListVue,
     // Ex02ArrayOfObjectList,
     // Ex03NestedArray,
-    Ex04ObjectList,
+    // Ex04ObjectList,
+    Ex05ConditionalListRendering,
   },
 };
 </script>
