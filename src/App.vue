@@ -30,7 +30,10 @@
   <!-- <div>
     <Ex04ObjectList />
   </div> -->
-  <Ex05ConditionalListRendering />
+  <!-- <Ex05ConditionalListRendering /> -->
+  <!-- <Ex01BasicMethod /> -->
+  <!-- <Ex01BasicEventHandling /> -->
+  <Ex02BasicCounterApp />
 </template>
 
 <script>
@@ -45,7 +48,10 @@
 // import Ex02ArrayOfObjectList from './components/03ListRendering/Ex02ArrayOfObjectList.vue';
 // import Ex03NestedArray from './components/03ListRendering/Ex03NestedArray.vue';
 // import Ex04ObjectList from './components/03ListRendering/Ex04ObjectList.vue';
-import Ex05ConditionalListRendering from './components/03ListRendering/Ex05ConditionalListRendering.vue';
+// import Ex05ConditionalListRendering from './components/03ListRendering/Ex05ConditionalListRendering.vue';
+// import Ex01BasicMethod from './components/04Method/Ex01BasicMethod.vue';
+// import Ex01BasicEventHandling from './components/05EventHandling/Ex01BasicEventHandling.vue';
+import Ex02BasicCounterApp from './components/04Method/Ex02BasicCounterApp.vue';
 
 export default {
   name: "App",
@@ -61,7 +67,10 @@ export default {
     // Ex02ArrayOfObjectList,
     // Ex03NestedArray,
     // Ex04ObjectList,
-    Ex05ConditionalListRendering,
+    // Ex05ConditionalListRendering,
+    // Ex01BasicMethod,
+    // Ex01BasicEventHandling,
+    Ex02BasicCounterApp,
   },
 };
 </script>
